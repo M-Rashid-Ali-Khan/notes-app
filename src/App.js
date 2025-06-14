@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App flex flex-col min-h-screen">
       <Header/>
+      <div className='h-[3em]'/>
       <TodoList/>
       <div className='flex-grow'/>
       <Footer/>

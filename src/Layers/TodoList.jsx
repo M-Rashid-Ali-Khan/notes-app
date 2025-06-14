@@ -2,7 +2,6 @@ import React, { useState, Fragment } from 'react'
 import TodoItem from './TodoItem'
 import {v4 as uuidv4} from 'uuid'
 import InputForm from './InputForm.jsx';
-import FlexColumnPadding from './FlexColumnPadding.jsx';
 
 const TodoListComponent = () => {
     const [todoList, setTodoList] = useState([])
