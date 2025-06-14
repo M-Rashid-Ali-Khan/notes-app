@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react'
+import React, { useState } from 'react'
 import TodoItem from './TodoItem'
 import {v4 as uuidv4} from 'uuid'
 import InputForm from './InputForm.jsx';
@@ -17,7 +17,7 @@ const TodoListComponent = () => {
         )
     }
     return (
-        <div className='flex flex-row'>
+        <div className="flex flex-row">
             <div className="flex-grow"></div>
             <div className='min-w-[300px] sm:min-w-[400px] md:min-w-[600px] lg:min-w-[800px]'>
                 <InputForm

@@ -8,9 +8,11 @@ function App() {
   return (
     <div className="App flex flex-col min-h-screen">
       <Header/>
+      <div  className="flex flex-col flex-grow bg-[url('http://localhost:3000/shaggy_looking_up.jpeg')]">
       <div className='h-[3em]'/>
-      <TodoList/>
+      <TodoList />
       <div className='flex-grow'/>
+      </div>
       <Footer/>
     </div>
   );

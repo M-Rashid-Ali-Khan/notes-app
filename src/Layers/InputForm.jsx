@@ -14,7 +14,7 @@ const InputForm = ({submitCallbackinputData}) => {
     return (
         <div className='flex flex-row'>
         <input 
-        className="text-justify px-4 py-2 flex-grow inline-block bg-gray-200"
+        className="focus:outline-none text-justify px-4 py-2 flex-grow inline-block bg-gray-200"
         placeholder="Add Todo"
         value={inputData}
         onChange={onChange}
